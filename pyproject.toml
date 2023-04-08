@@ -11,7 +11,11 @@ packages = [{include = "faster_whisper_life_transcribing"}]
 python = "^3.10"
 numpy = "^1.24.2"
 faster-whisper = "^0.4.1"
+fastapi = "^0.95.0"
 
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.21.1"
 
 [build-system]
 requires = ["poetry-core"]
