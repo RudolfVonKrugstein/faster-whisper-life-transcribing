@@ -592,6 +592,19 @@ dotenv = ["python-dotenv (>=0.10.4)"]
 email = ["email-validator (>=1.0.3)"]
 
 [[package]]
+name = "pyogg"
+version = "0.6.14a1"
+description = "Xiph.org's Ogg Vorbis, Opus and FLAC for Python"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "PyOgg-0.6.14a1-py2.py3-none-win32.whl", hash = "sha256:794db340fb5833afb4f493b40f91e3e0f594606fd4b31aea0ebf5be2de9da964"},
+    {file = "PyOgg-0.6.14a1-py2.py3-none-win_amd64.whl", hash = "sha256:40f79b288b3a667309890885f4cf53371163b7dae17eb17567fb24ab467eca26"},
+    {file = "PyOgg-0.6.14a1.tar.gz", hash = "sha256:8294b34aa59c90200c4630c2cc4a5b84407209141e8e5d069d7a5be358e94262"},
+]
+
+[[package]]
 name = "pyreadline3"
 version = "3.4.1"
 description = "A python implementation of GNU readline."
@@ -847,4 +860,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "a587c5daaeb021563964ee6020a3635ff3210fa2b584eb3f80945440a19497ca"
+content-hash = "dd111edc3a0265e8d4ebbf8c2e16e2f692e31573dd8d77eb2f43dfdd091f8172"
