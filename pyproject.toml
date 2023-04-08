@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "faster-whisper-life-transcribing"
+version = "0.1.0"
+description = ""
+authors = ["Nathan Hüsken <nathan@wintercloud.de>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "faster_whisper_life_transcribing"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.2"
+faster-whisper = "^0.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
