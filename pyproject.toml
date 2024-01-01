@@ -17,6 +17,7 @@ pyogg = "^0.6.14a1"
 
 [tool.poetry.group.dev.dependencies]
 uvicorn = "^0.21.1"
+debugpy = "^1.8.0"
 
 [build-system]
 requires = ["poetry-core"]
